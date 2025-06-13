@@ -1,0 +1,29 @@
+.scraper-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+}
+
+.scrape-button {
+  padding: 12px 48px;
+  font-size: 26px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.scrape-button:hover {
+  background-color: #0056b3;
+}
+
+.loader-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
